@@ -1,0 +1,13 @@
+prefix=E:/wheathermodel/venv/Library
+exec_prefix=E:/wheathermodel/venv/Library
+libdir=E:/wheathermodel/venv/Library/lib
+sharedlibdir=E:/wheathermodel/venv/Library/lib
+includedir=E:/wheathermodel/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
